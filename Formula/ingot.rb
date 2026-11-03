@@ -1,8 +1,8 @@
 class Ingot < Formula
   desc "LLM inference engine for Apple silicon (M5+) with an OpenAI-compatible server"
   homepage "https://github.com/ingot-mlx/ingot"
-  url "https://github.com/ingot-mlx/ingot/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "0d831b7a9c0da95a13bebd98f30f462fb5782d51d0c2eddae8d25df0ecdcf95b"
+  url "https://github.com/ingot-mlx/ingot/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "72335090ce62df194e1eaef2c0af5d3c50dbd3906452af58205290fca0a1bbec"
   license all_of: ["MIT", "Apache-2.0"]
   head "https://github.com/ingot-mlx/ingot.git", branch: "main"
 
@@ -12,8 +12,8 @@ class Ingot < Formula
   end
 
   bottle do
-    root_url "https://github.com/ingot-mlx/ingot/releases/download/v0.1.1"
-    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "c13c6f1bbe62e21ab6d7c42075d3df49df97b498d1db54ff6269753b2d152126"
+    root_url "https://github.com/ingot-mlx/ingot/releases/download/v0.1.2"
+    sha256 cellar: :any_skip_relocation, arm64_golden_gate: "093a6342f1ab20bd69d7aebf8890aeb1747ca91836e65afdf1b4bf190366dd97"
   end
 
   depends_on arch: :arm64
